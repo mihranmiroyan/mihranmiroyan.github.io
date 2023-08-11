@@ -3,13 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>**YOUR_NAME_HERE**</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mihran Miroyan - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Default text color */
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #333;
+        }
+
+        .section {
+            padding: 2rem;
+            background-color: #fff;
+            margin: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        .section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #666;
+        }
+
+        .section ul li {
+            line-height: 1.5;
+            margin-bottom: 10px; /* Increased spacing between bullet points */
+        }
+
+        .section p {
+            line-height: 1.5;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>This is a basic webpage example.</p>
+    <header>
+        <h1>Mihran Miroyan</h1>
+    </header>
+    <img class="profile-img" src="mir.jpg" alt="Mihran Miroyan">
+    <div class="social-links">
+        <a href="https://github.com/mihranmiroyan">GitHub</a>
+        <a href="https://www.linkedin.com/in/mihran-miroyan">LinkedIn</a>
+    </div>
+    <div class="section">
+        <h2>Education</h2>
+        <p>University of California, Berkeley</p>
+        <p>Computer Science, Statistics</p>
+    </div>
+    <div class="section">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Teacher Assistant (Data 100)</li>
+            <li>Research Assistant (EECS)</li>
+            <li>Research and Development Software Engineering Intern (Summer 2022)</li>
+        </ul>
     </div>
 </body>
 </html>
